@@ -16,6 +16,10 @@ ul{
 
 .section{
   height: 100vh;
+
+  &:nth-of-type(even){
+    background: $light;
+  }
 }
 
 .wrapper{
