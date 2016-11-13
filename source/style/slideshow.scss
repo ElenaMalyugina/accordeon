@@ -1,0 +1,28 @@
+.slideshow{
+  list-style:none;
+  width:340px;
+  height:200px;
+  position: relative;
+  overflow: hidden;
+  display:inline-block;
+}
+
+.slideshow__li{
+  width:340px;
+  height: 200px;
+  border: 5px solid $colorActive;
+  background: $dark;
+  color: $light;
+  font-size: 140px;
+  text-align: center;
+  line-height: 1.4;
+  position: absolute;
+  z-index:10;
+  &::selection{
+    background: transparent;
+  }
+}
+
+.slideshow__li_active{
+  z-index:20;
+}
