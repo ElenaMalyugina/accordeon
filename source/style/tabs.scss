@@ -1,0 +1,37 @@
+.tabs__container{
+  width: 400px;
+  text-align: center;
+  font-size: 0;
+
+}
+
+.tab__li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 1rem;
+  background: $dark;
+  color: $light;
+  border-right: 1px solid $light;
+  border-radius: 3px 3px 0 0;
+  cursor: pointer;
+}
+
+.tab__li_active{
+  background: $colorActive;
+}
+
+.tabs__content{
+  font-size: 1rem;
+
+}
+
+.tabContent__li{
+  display: none;
+  background: $light;
+  min-height: 300px;
+}
+
+.tabContent__li_active{
+  display: block;
+  padding: 20px;
+}
